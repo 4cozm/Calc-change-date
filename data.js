@@ -4,7 +4,7 @@ var today_Month=day.getMonth()+1;
 var today=day.getTime();
 document.querySelector("#today").innerHTML=(today_Month+"월"+today_Date+"일 기준으로 개통시");
 var D120=today+(121*86400000);
-var D180=today+(183*86400000);
+var D180=today+(182*86400000);
 
 var Yo_Hal=new Date(D120);
 var Gong_Si=new Date(D180);
