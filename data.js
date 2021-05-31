@@ -13,4 +13,4 @@ var internet=new Date(D305);
 
 document.querySelector("#select25per").innerHTML="<h2>요금할인 개통시</h2>"+Yo_Hal.getFullYear()+"년"+(Yo_Hal.getMonth()+1)+"월"+Yo_Hal.getDate()+"일 요금제 변경 가능";
 document.querySelector("#gong").innerHTML="<h2>공시지원금 개통시</h2>"+Gong_Si.getFullYear()+"년"+(Gong_Si.getMonth()+1)+"월"+Gong_Si.getDate()+"일 요금제 변경 가능";
-document.querySelector("#internet").innerHTML="<h2>유선 개통시</h2>"+internet.getFullYear()+"년"+(internet.getMonth()+1)+"월"+internet.getDate()+"일 요금제 변경 가능";
+document.querySelector("#internet").innerHTML="<h2>유선 개통시</h2>"+internet.getFullYear()+"년"+(internet.getMonth()+1)+"월"+internet.getDate()+"일 상품 변경 가능";
